@@ -17,7 +17,7 @@ const Todos = () => {
         {todos &&
           todos.map((todo) => {
             return (
-              <div>
+              <div className="article" key={todo.id + todo.title}>
                 <h3>{todo.id}</h3>
                 <h2>{todo.title}</h2>
               </div>

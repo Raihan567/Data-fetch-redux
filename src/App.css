@@ -32,6 +32,27 @@
   }
 }
 
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.article {
+  background-color: #fff;
+  color: #000;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+  margin: 0.2rem;
+  padding: 0.5rem;
+}
+.article:hover {
+  transform: scale(1.1);
+  background-color: black;
+  border: 1px solid cyan;
+  color: white;
+}
 .card {
   padding: 2em;
 }
