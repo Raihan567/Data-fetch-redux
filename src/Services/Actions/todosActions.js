@@ -1,3 +1,4 @@
+// Action type declared
 import axios from "axios";
 import {
   GET_TODOS_FAILED,
